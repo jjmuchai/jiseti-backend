@@ -36,7 +36,8 @@ def create_app():
                      "http://127.0.0.1:5173",   # Alternative localhost
                      "http://localhost:3000",   # Alternative React dev server
                      "http://localhost:5174",   # Alternative Vite port
-                     "https://jiseti.go.ke",    # Production domain (if applicable)
+                     "https://jiseti.go.ke", 
+                     "https://jiseti.netlify.app"     # Production domain (if applicable)
                  ],
                  "methods": ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
                  "allow_headers": [
@@ -58,7 +59,8 @@ def create_app():
                      "http://127.0.0.1:5173", 
                      "http://localhost:3000",
                      "http://localhost:5174",
-                     "https://jiseti.go.ke"
+                     "https://jiseti.go.ke",
+                     "https://jiseti.netlify.app"
                  ],
                  "methods": ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
                  "allow_headers": [
@@ -114,7 +116,8 @@ def create_app():
                 'http://127.0.0.1:5173',
                 'http://localhost:3000', 
                 'http://localhost:5174',
-                'https://jiseti.go.ke'
+                'https://jiseti.go.ke',
+                "https://jiseti.netlify.app"
             ]
             
             # Set CORS headers if origin is allowed
@@ -139,7 +142,8 @@ def create_app():
             'http://127.0.0.1:5173',
             'http://localhost:3000',
             'http://localhost:5174', 
-            'https://jiseti.go.ke'
+            'https://jiseti.go.ke',
+            "https://jiseti.netlify.app"
         ]
         
         # Add CORS headers if origin is allowed
