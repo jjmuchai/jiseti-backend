@@ -1,1 +1,2 @@
-web: gunicorn jiseti:app
+web: gunicorn app:app
+
