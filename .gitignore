@@ -29,4 +29,26 @@ client/.env
 __pycache__/
 *.pyc
 
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+.env
+
+# VSCode or other editor configs (optional)
+.vscode/
+.idea/
+
+# Database (optional if local-only)
+*.sqlite3
+*.db
+
+# Logs (optional)
+*.log
+
+
 
